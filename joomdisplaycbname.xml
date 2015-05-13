@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="joomgallery" method="upgrade">
+  <name>PLG_JOOMGALLERY_JOOMDISPLAYCBNAME</name>
+  <author>Chraneco</author>
+  <creationDate>13.05.2015</creationDate>
+  <copyright>Copyright (C) 2010 - 2015 Open Source Matters. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>team@joomgallery.net</authorEmail>
+  <authorUrl>www.joomgallery.net</authorUrl>
+  <version>3.0</version>
+  <description>PLG_JOOMGALLERY_JOOMDISPLAYCBNAME_XML_DESCRIPTION</description>
+  <files>
+    <filename plugin="joomdisplaycbname">joomdisplaycbname.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages folder="language">
+    <language tag="de-DE">de-DE/de-DE.plg_joomgallery_joomdisplaycbname.ini</language>
+    <language tag="de-DE">de-DE/de-DE.plg_joomgallery_joomdisplaycbname.sys.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_joomgallery_joomdisplaycbname.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_joomgallery_joomdisplaycbname.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="Itemid" type="text" default="" label="PLG_JOOMGALLERY_JOOMDISPLAYCBNAME_FIELD_ITEMID_LABEL" description="PLG_JOOMGALLERY_JOOMDISPLAYCBNAME_FIELD_ITEMID_DESC" />
+      </fieldset>
+    </fields>
+  </config>
+  <updateservers>
+    <server type="collection" priority="1" name="JoomGallery Update Service">http://www.en.joomgallery.net/components/com_newversion/xml/extensions3.xml</server>
+  </updateservers>
+</extension>
