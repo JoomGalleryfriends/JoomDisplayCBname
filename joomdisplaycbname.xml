@@ -7,7 +7,7 @@
   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
   <authorEmail>team@joomgallery.net</authorEmail>
   <authorUrl>www.joomgallery.net</authorUrl>
-  <version>3.0</version>
+  <version>3.1</version>
   <description>PLG_JOOMGALLERY_JOOMDISPLAYCBNAME_XML_DESCRIPTION</description>
   <files>
     <filename plugin="joomdisplaycbname">joomdisplaycbname.php</filename>
