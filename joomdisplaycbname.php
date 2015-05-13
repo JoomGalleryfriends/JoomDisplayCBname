@@ -41,8 +41,6 @@ class plgJoomGalleryJoomDisplayCBName extends JPlugin
     $file = JPATH_ADMINISTRATOR.'/components/com_comprofiler/plugin.foundation.php';
     if(file_exists($file))
     {
-      global $ueConfig;
-      require_once JPATH_ADMINISTRATOR.'/components/com_comprofiler/ue_config.php';
       require_once $file;
       cbimport('cb.database');
       JHtml::_('behavior.framework');
