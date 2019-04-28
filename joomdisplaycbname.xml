@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" group="joomgallery" method="upgrade">
   <name>PLG_JOOMGALLERY_JOOMDISPLAYCBNAME</name>
-  <author>Chraneco</author>
-  <creationDate>13.05.2015</creationDate>
-  <copyright>Copyright (C) 2010 - 2015 Open Source Matters. All rights reserved.</copyright>
+  <author>- 2015 Chraneco; since 2019 JoomGallery::ProjectTeam</author>
+  <creationDate>2019/04/15</creationDate>
+  <copyright>Copyright (C) 2010 - 2019 Open Source Matters. All rights reserved.</copyright>
   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-  <authorEmail>team@joomgallery.net</authorEmail>
-  <authorUrl>www.joomgallery.net</authorUrl>
-  <version>3.1</version>
+  <authorUrl>www.joomgalleryfriends.net</authorUrl>
+  <version>3.0.1</version>
   <description>PLG_JOOMGALLERY_JOOMDISPLAYCBNAME_XML_DESCRIPTION</description>
   <files>
     <filename plugin="joomdisplaycbname">joomdisplaycbname.php</filename>
@@ -27,6 +26,6 @@
     </fields>
   </config>
   <updateservers>
-    <server type="collection" priority="1" name="JoomGallery Update Service">http://www.en.joomgallery.net/components/com_newversion/xml/extensions3.xml</server>
+    <server type="collection" priority="1" name="JoomGallery Update Service">https://www.joomgalleryfriends.net/components/com_newversion/xml/extensions3.xml</server>
   </updateservers>
 </extension>
