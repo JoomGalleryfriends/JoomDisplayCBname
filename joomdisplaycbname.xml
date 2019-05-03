@@ -2,11 +2,11 @@
 <extension version="3.0" type="plugin" group="joomgallery" method="upgrade">
   <name>PLG_JOOMGALLERY_JOOMDISPLAYCBNAME</name>
   <author>- 2015 Chraneco; since 2019 JoomGallery::ProjectTeam</author>
-  <creationDate>2019/04/15</creationDate>
+  <creationDate>2019/05/03</creationDate>
   <copyright>Copyright (C) 2010 - 2019 Open Source Matters. All rights reserved.</copyright>
   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
   <authorUrl>www.joomgalleryfriends.net</authorUrl>
-  <version>3.0.1</version>
+  <version>3.1.1</version>
   <description>PLG_JOOMGALLERY_JOOMDISPLAYCBNAME_XML_DESCRIPTION</description>
   <files>
     <filename plugin="joomdisplaycbname">joomdisplaycbname.php</filename>
